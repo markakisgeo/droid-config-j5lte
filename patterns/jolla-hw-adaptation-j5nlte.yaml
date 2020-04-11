@@ -1,19 +1,19 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for j500fn HW Adaptation
-Name: jolla-hw-adaptation-j500fn
+Description: Pattern with packages for j5nlte HW Adaptation
+Name: jolla-hw-adaptation-j5nlte
 Requires:
-- droid-hal-j500fn
-- droid-hal-j500fn-img-boot
-- droid-hal-j500fn-kernel-modules
-- droid-config-j500fn-sailfish
-- droid-config-j500fn-pulseaudio-settings
-- droid-config-j500fn-policy-settings
-- droid-config-j500fn-preinit-plugin
-- droid-config-j500fn-flashing
-- droid-config-j500fn-bluez5
-- droid-hal-version-j500fn
+- droid-hal-j5nlte
+- droid-hal-j5nlte-img-boot
+- droid-hal-j5nlte-kernel-modules
+- droid-config-j5nlte-sailfish
+- droid-config-j5nlte-pulseaudio-settings
+- droid-config-j5nlte-policy-settings
+- droid-config-j5nlte-preinit-plugin
+- droid-config-j5nlte-flashing
+- droid-config-j5nlte-bluez5
+- droid-hal-version-j5nlte
 
 # Hybris packages
 - libhybris-libEGL
@@ -74,5 +74,5 @@ Requires:
 #- nfcd-binder-plugin
 #- jolla-settings-system-nfc
 
-Summary: Jolla HW Adaptation j500fn
+Summary: Jolla HW Adaptation j5nlte
 
