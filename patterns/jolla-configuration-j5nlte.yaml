@@ -1,10 +1,10 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for j500fn configurations
-Name: jolla-configuration-j500fn
+Description: Pattern with packages for j5nlte configurations
+Name: jolla-configuration-j5nlte
 Requires:
-- pattern:jolla-hw-adaptation-j500fn
+- pattern:jolla-hw-adaptation-j5nlte
 
 - patterns-sailfish-applications
 - patterns-sailfish-ui
@@ -37,5 +37,5 @@ Requires:
 # to improve camera startup times and the like
 #- mapplauncherd-booster-silica-qt5-media
 
-Summary: Jolla Configuration j500fn
+Summary: Jolla Configuration j5nlte
 
